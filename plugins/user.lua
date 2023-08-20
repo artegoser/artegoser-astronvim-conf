@@ -1,4 +1,15 @@
 return {
+  
+  {
+      "goolord/alpha-nvim",
+      opts = function(_, opts) -- override the options using lazy.nvim
+        opts.section.header.val = { -- change the header section value
+          "    ARTEGOSER ",
+          " yes, it's me",
+        }
+      end,
+  },
+
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
   -- "andweeb/presence.nvim",
