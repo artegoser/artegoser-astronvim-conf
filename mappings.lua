@@ -32,6 +32,7 @@ return {
     ["<leader>b"] = { name = "Buffers" },
 
     ["<leader>k"] = { ":SessionManager load_current_dir_session<cr>", desc = "Load Session" },
+    ["<leader>a"] = { ":qa<cr>", desc = "Quit all" },
   },
   t = {
     -- setting a mapping to false will disable it
